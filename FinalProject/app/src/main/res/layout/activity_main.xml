@@ -8,6 +8,17 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
+
+    <Button
+        android:id="@+id/buttonFetchPost"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fetch Post"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="16dp" />
+
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/recyclerViewPosts"
         android:layout_width="0dp"
@@ -19,3 +30,4 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"/>
 </androidx.constraintlayout.widget.ConstraintLayout>
+
