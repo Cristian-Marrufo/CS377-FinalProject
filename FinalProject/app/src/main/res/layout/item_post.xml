@@ -13,6 +13,12 @@
         android:textStyle="bold"
         android:textSize="18sp" />
 
+    <ImageView
+        android:id="@+id/imageViewPost"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:scaleType="centerCrop" />
+
     <TextView
         android:id="@+id/textViewBody"
         android:layout_width="match_parent"
@@ -24,5 +30,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp" />
+
+
 
 </LinearLayout>
